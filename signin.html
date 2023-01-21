@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Welcome to Kerala Tourism-Official website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sign-bg">
+        <div class="logo row">
+            <div class="col">
+                <img class="p-3  " src="title.png" alt="" width="300vw">
+            </div>
+            <div class="col">
+                <div class="nav p-3 ">
+                    <a class="nav-btn p-2 my-3 text-white " href="home.html">Home</a>
+                    <a class="nav-btn p-2 my-3 text-white" href="signin.html">sign In</a>
+                    <a class="nav-btn p-2 my-3 text-white" href="signup.html">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    <div class="container py-5 px-5 ">
+    <form action="/action_page.php" class="was-validated text-white">
+        <h1 class="text-center" style="color: white;">Sign In</h1>
+
+        <div class="form-group">
+            <label class="form-label" for="uname">User Name</label>
+            <div class="input-group mb-3">
+                
+                <input type="text" class="form-control" placeholder="Enter User Name" required>
+                <div class="input-group-append"><span class="input-group-text">@example.com</span></div>
+            </div>
+            <div class="valid-feedback">Valid</div>
+            <div class="invalid-feedback">Please fill out this field</div>
+        </div>
+
+        <div class="form-group">
+            <label class="form-label" for="pwd">Password:</label>
+            
+            <input type="password" class="form-control" placeholder="Enter Password" required>
+            <div class="valid-feedback">Valid</div>
+            <div class="invalid-feedback">Please fill out this field</div>
+        </div>
+
+
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary ">Submit</button>
+        </div><br><br>
+
+        <div class="text-center">
+            <h6 class="text-center" style="color: white;">Not a Member?</h6>
+            <a href="signup.html">Sign Up</a>
+        </div>
+    </form>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+div.content1{
+    background-image: url('kerala1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 80vh;
+}
+div.logo{
+    background-color: rgba(114, 211, 238, 0.3);
+    box-shadow: 5px 5px 10px rgb(44, 153, 186);
+}
+
+div.nav{
+
+    justify-content:end ;
+    
+}
+
+
+
+
+
+
+h2{
+    color: rgb(4, 78, 91);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.image{
+    /* border: 2px solid rgb(251, 249, 249); */
+    /* height: 400px; 
+    width: 300px;
+    box-shadow: 5px 5px 10px grey; */
+}
+
+div.content2{
+    background-color: rgb(234, 237, 241);
+}
+
+div.destination-btn{
+    font-size: 1vw;
+    color: rgb(1, 48, 52);
+    font-weight: bold;   
+}
+
+div.content3{
+    background-image: url('content3.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+div.sign-bg{
+    background-image: url('signup.png');
+    background-size: 100% 100%;
+    height: 150vh;
+    background-attachment: fixed;
+}
+div.malarickal-bg{
+    background-image: url('malarickal.jpg');
+    background-size: 100% 100%;
+    height: 100vh;
+}
+div.periyar-bg{
+    background-image: url('periyar5.jpg');
+    background-size: 100% 100%;
+    height: 100vh;
+}
+div.kumbalangi-bg{
+    background-image: url('kumbalangi1.jpg');
+    background-size: 100% 100%;
+    height: 100vh;
+}
+div.msg{
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    background-color: rgb(1, 102, 1);
+}
